@@ -1,33 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1</title>
-    <script src="/GUÍA EJERCICIOS/ejercicio1.js"></script>
+    <script defer src="./ejercicio1.js"></script>
 </head>
 <body>
     <div>
         <form>
             <div>
-                <label>Nombre</label>
-                <input id="nombre" type="text">
+                <label>Nombre:</label>
+                <input id="nombre" type="text" />
             </div>
             <div>
-                <label>Correo electrónico</label>
-                <input id="correo" type="text">
+                <label>Correo Electrónico:</label>
+                <input id="correo" type="text" />
             </div>
             <div>
-                <label>Mensaje</label>
+                <label>Mensaje:</label>
                 <textarea id="mensaje"></textarea>
             </div>
             <div>
-                <button id="but_enivar"
-                 type="button">
-                 Enviar
+                <button id="but_enviar" 
+                        type="button">
+                    Enviar
                 </button>
             </div>
         </form>
     </div>
+    <div id="area_mensajes"></div>
 </body>
 </html>
